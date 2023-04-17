@@ -1,0 +1,7 @@
+{
+  "name": "space-for-earth",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/space-for-earth",
+  "projectType": "application",
+  "tags": []
+}

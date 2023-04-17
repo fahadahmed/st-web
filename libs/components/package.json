@@ -1,5 +1,5 @@
 {
-  "name": "@st-test2/components",
+  "name": "@ey-spacetech/components",
   "version": "0.0.1",
   "main": "./index.js",
   "types": "./index.d.ts",

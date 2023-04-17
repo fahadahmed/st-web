@@ -16,6 +16,8 @@
     "@nrwl/storybook": "^15.9.2",
     "@nrwl/vite": "15.9.2",
     "@nrwl/workspace": "15.9.2",
+    "@remix-run/dev": "^1.14.3",
+    "@remix-run/eslint-config": "^1.14.3",
     "@storybook/addon-essentials": "^6.5.15",
     "@storybook/builder-vite": "^0.2.6",
     "@storybook/core-server": "^6.5.15",
@@ -31,7 +33,7 @@
     "@vitest/coverage-c8": "~0.25.8",
     "@vitest/ui": "^0.25.8",
     "babel-loader": "8.1.0",
-    "eslint": "~8.15.0",
+    "eslint": "^8.27.0",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-jsx-a11y": "6.7.1",
@@ -51,6 +53,10 @@
     "vitest": "^0.25.8"
   },
   "dependencies": {
+    "@remix-run/node": "^1.14.3",
+    "@remix-run/react": "^1.14.3",
+    "@remix-run/serve": "^1.14.3",
+    "isbot": "^3.6.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   }
