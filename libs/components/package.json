@@ -1,0 +1,19 @@
+{
+  "name": "@st-test2/components",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "dev:sass": "npx sass --load-path=./node_modules --no-source-map --watch src"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "devDependencies": {
+    "@carbon/react": "^1.27.0",
+    "sass": "^1.62.0"
+  }
+}
