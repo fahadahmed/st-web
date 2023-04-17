@@ -1,4 +1,5 @@
 import styles from "./components.module.css";
+import '../styles/global.css'
 
 /* eslint-disable-next-line */
 export interface ComponentsProps {}
