@@ -1,0 +1,84 @@
+@use './_variables.scss' as base;
+
+$ui-background: base.$white;
+
+$interactive-01: base.$ey-off-black;
+$interactive-02: base.$ey-yellow;
+$interactive-03: base.$ey-grey-1;
+$interactive-04: base.$ey-grey-1;
+
+$danger-01: base.$red-60;
+$danger-02: base.$red-60;
+
+$ui-01: base.$ey-off-white;
+$ui-02: base.$ey-off-white;
+$ui-03: base.$gray-20;
+$ui-04: base.$gray-50;
+$ui-05: base.$gray-100;
+
+$button-separator: base.$gray-20;
+
+$decorative-01: base.$gray-20;
+
+$text-01: base.$gray-100;
+$text-02: base.$gray-70;
+$text-03: base.$gray-40;
+$text-04: base.$white;
+$text-05: base.$white;
+
+$text-error: base.$red-60;
+
+$link-01: base.$ey-off-black;
+$inverse-link: base.$ey-yellow;
+
+$icon-01: base.$ey-off-black;
+$icon-02: base.$gray-70;
+$icon-03: base.$white;
+
+$inverse-01: base.$white;
+$inverse-02: base.$gray-80;
+
+$support-01: base.$red-60;
+$support-02: base.$green-60;
+$support-03: base.$yellow;
+$support-04: base.$blue-70;
+$inverse-support-01: base.$red-50;
+$inverse-support-02: base.$green-40;
+$inverse-support-03: base.$yellow;
+$inverse-support-04: base.$blue-50;
+
+$overlay-01: rgba(base.$gray-100, 0.5);
+
+$focus: base.$ey-yellow;
+$inverse-focus-ui: base.$white;
+
+$hover-primary: base.$primary-hover;
+$hover-primary-text: $interactive-01;
+$hover-secondary: $interactive-01;
+$hover-tertiary: $interactive-03;
+$hover-ui: $ui-01;
+$hover-light-ui: base.$gray-10;
+$hover-selected-ui: base.$gray-20;
+$hover-danger: base.$red-60-hover;
+$hover-row: base.$gray-10-hover;
+$inverse-hover-ui: base.$gray-80-hover;
+
+$active-primary: base.$ey-off-black;
+$active-secondary: base.$gray-60;
+$active-tertiary: base.$ey-yellow;
+$active-ui: base.$gray-30;
+$active-light-ui: base.$gray-30;
+$active-danger: base.$red-80;
+
+$selected-ui: base.$gray-20;
+$selected-light-ui: base.$gray-20;
+
+$highlight: base.$ey-yellow;
+
+$skeleton-01: base.$gray-10-hover;
+$skeleton-02: base.$gray-30;
+
+$visited-link: base.$gray-70;
+
+$disabled-01: base.$gray-10;
+$disabled-02: base.$gray-30;

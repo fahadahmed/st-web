@@ -1,0 +1,99 @@
+@use './variables.scss' as base;
+
+// Heading Styles
+$heading-compact-01: (
+  font-family: base.$font-family,
+  font-size: 0.875rem,
+  line-height: 1.125rem,
+  font-weight: 600,
+  letter-spacing: 0.16px,
+) !default;
+
+$heading-compact-02: (
+  font-family: base.$font-family,
+  font-size: 1rem,
+  line-height: 1.375rem,
+  font-weight: 600,
+) !default;
+
+$heading-01: (
+  font-family: base.$font-family,
+  font-size: 0.875rem,
+  line-height: 1.125rem,
+  font-weight: 600,
+  letter-spacing: 0.16px,
+) !default;
+
+$heading-02: (
+  font-family: base.$font-family,
+  font-size: 1rem,
+  line-height: 1.5rem,
+  font-weight: 600,
+) !default;
+
+$heading-03: (
+  font-family: base.$font-family,
+  font-size: 1.25rem,
+  line-height: 1.75rem,
+  font-weight: 400,
+) !default;
+
+$heading-04: (
+  font-family: base.$font-family,
+  font-size: 1.75rem,
+  line-height: 2.25rem,
+  font-weight: 400,
+) !default;
+
+$heading-05: (
+  font-family: base.$font-family,
+  font-size: 2rem,
+  line-height: 2.5rem,
+  font-weight: 300,
+) !default;
+
+$heading-06: (
+  font-family: base.$font-family,
+  font-size: 2.625rem,
+  line-height: 3.125rem,
+  font-weight: 300,
+) !default;
+
+$heading-07: (
+  font-family: base.$font-family,
+  font-size: 3.375rem,
+  line-height: 4rem,
+  font-weight: 600,
+) !default;
+
+// Body Styles
+
+$body-compact-01: (
+  font-family: 'Interstate',
+  font-size: 0.875rem,
+  line-height: 1.125rem,
+  font-weight: 400,
+  letter-spacing: 0.16px,
+);
+
+$body-compact-02: (
+  font-family: 'Interstate',
+  font-size: 1rem,
+  line-height: 1.375rem,
+  font-weight: 400,
+);
+
+$body-01: (
+  font-family: 'Interstate',
+  font-size: 0.875rem,
+  line-height: 1.25rem,
+  font-weight: 400,
+  letter-spacing: 0.16px,
+);
+
+$body-02: (
+  font-family: 'Interstate',
+  font-size: 1rem,
+  line-height: 1.5rem,
+  font-weight: 400,
+);

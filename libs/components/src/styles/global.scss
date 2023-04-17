@@ -1,0 +1,91 @@
+@use './tokens/variables' as base;
+@use './tokens/colors' as colors;
+@use './tokens/spacing' as spacing;
+@use './tokens/fonts' as fonts;
+@use '_themes' as app;
+@use '@carbon/styles/scss/config' with (
+  $use-akamai-cdn: true
+);
+@use '@carbon/react/scss/type' as *; // Needed to compile build the theme :/ :/
+@use '@carbon/themes/scss/themes';
+@use '@carbon/styles/scss/theme' with (
+  $fallback: themes.$white,
+  $theme: app.$custom
+);
+
+@use '@carbon/react/scss/components/button/tokens' as button-tokens with (
+  $button-separator: (
+    fallback: colors.$button-separator,
+    values: (
+      (theme: app.$custom, value: colors.$button-separator),
+    ),
+  ),
+  $button-primary: (
+    fallback: base.$ey-yellow,
+    values: (
+      (theme: app.$custom, value: base.$ey-yellow),
+    ),
+  ),
+  $button-secondary: (
+    fallback: colors.$interactive-03,
+    values: (
+      (theme: app.$custom, value: colors.$interactive-03),
+    ),
+  ),
+  $button-tertiary: (
+    fallback: colors.$interactive-01,
+    values: (
+      (theme: app.$custom, value: colors.$interactive-01),
+    ),
+  ),
+  $button-primary-active: (
+    fallback: base.$primary-hover,
+    values: (
+      (theme: app.$custom, value: base.$primary-hover),
+    ),
+  ),
+  $button-secondary-active: (
+    fallback: #6f6f6f,
+    values: (
+      (theme: app.$custom, value: #6f6f6f),
+    ),
+  ),
+  $button-tertiary-active: (
+    fallback: colors.$interactive-03,
+    values: (
+      (theme: app.$custom, value: colors.$interactive-03),
+    ),
+  ),
+  $button-primary-hover: (
+    fallback: base.$primary-hover,
+    values: (
+      (theme: app.$custom, value: base.$primary-hover),
+    ),
+  ),
+  $button-secondary-hover: (
+    fallback: #474747,
+    values: (
+      (theme: app.$custom, value: #474747),
+    ),
+  ),
+  $button-tertiary-hover: (
+    fallback: colors.$interactive-03,
+    values: (
+      (theme: app.$custom, value: colors.$interactive-03),
+    ),
+  ),
+  $button-disabled: (
+    fallback: #c6c6c6,
+    values: (
+      (theme: app.$custom, value: #c6c6c6),
+    ),
+  )
+);
+
+// Import rest of the Carbon styles
+@use '@carbon/styles';
+@use '@carbon/type';
+
+:root {
+  @include theme.theme();
+}
